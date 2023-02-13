@@ -12,7 +12,7 @@
  * @returns {number} - temperature in Celsius
  */
 function fahrenheitToCelsius(fahrenheit) {
-  // write your code here & return
+  return Math.round(`55.${'5'.repeat(10)}` * (fahrenheit - 32)) / 100;
 }
 
 /**
@@ -21,7 +21,7 @@ function fahrenheitToCelsius(fahrenheit) {
  * @returns {number} - temperature in Fahrenheit
  */
 function celsiusToFahrenheit(celsius) {
-  // write your code here & return
+  return Math.round(180 * celsius + 3200) / 100;
 }
 
 module.exports = {
